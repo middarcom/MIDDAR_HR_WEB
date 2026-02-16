@@ -1,0 +1,55 @@
+{
+    "name": "HR Management System",
+    "short_name": "HR System",
+    "description": "Comprehensive HR Management System for employee management, payroll, time attendance, and more",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1B3A5B",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "business",
+        "productivity"
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Clock In/Out",
+            "short_name": "Clock",
+            "description": "Record attendance",
+            "url": "/time_attendance/check-in-out",
+            "icons": [
+                {
+                    "src": "/ icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Request Leave",
+            "short_name": "Leave",
+            "description": "Request time off",
+            "url": "/leaves",
+            "icons": [
+                {
+                    "src": "/icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}
