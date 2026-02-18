@@ -1,0 +1,11 @@
+import{l as n,j as e,Q as p,B as u,S as h,U as x,k as f,F as y,t as g}from"./index-DcTsfPOQ.js";import{P as N}from"./plus-7yv9qKks.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const b=n("FileX",[["path",{d:"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",key:"1rqfz7"}],["path",{d:"M14 2v4a2 2 0 0 0 2 2h4",key:"tnqrlb"}],["path",{d:"m14.5 12.5-5 5",key:"b62r18"}],["path",{d:"m9.5 12.5 5 5",key:"1rk7el"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const j=n("Inbox",[["polyline",{points:"22 12 16 12 14 15 10 15 8 12 2 12",key:"o97t9d"}],["path",{d:"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z",key:"oot6mr"}]]),k={"no-data":{icon:j,title:"No data available",description:"There is no data to display at the moment."},"no-results":{icon:h,title:"No results found",description:"Try adjusting your search or filters to find what you're looking for."},"no-users":{icon:x,title:"No users found",description:"There are no users to display."},"no-appointments":{icon:f,title:"No appointments",description:"You don't have any appointments scheduled."},"no-documents":{icon:y,title:"No documents",description:"There are no documents to display."},error:{icon:g,title:"Something went wrong",description:"An error occurred while loading the data."},custom:{icon:b,title:"Empty",description:"No content available."}};function T({type:s="no-data",title:a,description:i,icon:r,action:t,className:l}){const o=k[s],c=r||o.icon,d=a||o.title,m=i||o.description;return e.jsxs("div",{className:p("flex flex-col items-center justify-center py-12 px-4 text-center",l),children:[e.jsx("div",{className:"rounded-full bg-muted p-4 mb-4",children:e.jsx(c,{className:"h-8 w-8 text-muted-foreground"})}),e.jsx("h3",{className:"text-lg font-semibold text-foreground mb-2",children:d}),e.jsx("p",{className:"text-sm text-muted-foreground max-w-sm mb-4",children:m}),t&&e.jsxs(u,{onClick:t.onClick,variant:"outline",className:"gap-2",children:[e.jsx(N,{className:"h-4 w-4"}),t.label]})]})}export{T as E};
