@@ -1,1 +1,0 @@
-import{aa as o}from"./index-CCrEZW60.js";function p(n,u){const t=o(n.start),s=o(n.end);let a=+t>+s;const c=a?+t:+s,e=a?s:t;e.setHours(0,0,0,0);let D=1;const r=[];for(;+e<=c;)r.push(o(e)),e.setDate(e.getDate()+D),e.setHours(0,0,0,0);return a?r.reverse():r}export{p as e};
