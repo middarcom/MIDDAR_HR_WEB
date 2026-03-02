@@ -1,0 +1,1 @@
+import{ap as o}from"./index-Du9WwDr-.js";function d(n,p){const t=o(n.start),s=o(n.end);let r=+t>+s;const c=r?+t:+s,e=r?s:t;e.setHours(0,0,0,0);let D=1;const a=[];for(;+e<=c;)a.push(o(e)),e.setDate(e.getDate()+D),e.setHours(0,0,0,0);return r?a.reverse():a}export{d as e};
