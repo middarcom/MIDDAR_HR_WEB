@@ -1,0 +1,1 @@
+import{an as n}from"./index-DOteXm7Z.js";function p(o,u){const t=n(o.start),s=n(o.end);let r=+t>+s;const c=r?+t:+s,e=r?s:t;e.setHours(0,0,0,0);let D=1;const a=[];for(;+e<=c;)a.push(n(e)),e.setDate(e.getDate()+D),e.setHours(0,0,0,0);return r?a.reverse():a}export{p as e};
